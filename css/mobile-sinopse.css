@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+#navbar{
+    height: 100%;
+}
+
+.navbar-container{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.nav-items{
+    flex-direction: column;
+    text-align: center;
+}
+
+.filme{
+    display: flex;
+    flex-direction: column;
+}
+
+.sinopse_filme{
+    width: 100%;
+}
+
+.sinopse_filme .titulo-sinopse{
+    text-align: center;
+}
+
+.sinopse_filme .paragrafo-primario-sinopse{
+    text-align: center;
+}
+
+.sinopse_filme .paragrafo-secundario-sinopse{
+    text-align: justify;
+}
+
+.sinopse_filme .paragrafo-terciario-sinopse{
+    text-align: center;
+}
